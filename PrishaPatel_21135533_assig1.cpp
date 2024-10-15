@@ -50,8 +50,6 @@ int main(){
     for (int i = 0; i<num_events; i++){
         int event_gen = (rand() % 6)+1; // Generates a number between 1 and 6
 
-        cout << red_card_a << endl;
-
         // Processing the events based on the random numbers generated
         if (event_gen == 1){
             case_type("Team A", score_a, shots_on_goal_a, off_goal_a, blocked_shots_a, num_shots_a);
